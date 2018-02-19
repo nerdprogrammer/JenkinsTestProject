@@ -16,7 +16,19 @@
 		<mule.version>3.8.2</mule.version>
     	<mule.tools.version>1.2</mule.tools.version>
 	</properties>
-
+	<!-- demo customized config : Nexus Repositories -->
+<distributionManagement>
+        <repository>
+            <id>nexus-releases</id>
+            <name>Internal Releases</name>
+            <url>https://first.pl.s2-eu.capgemini.com/nexus3/repository/testMaven/</url>
+        </repository>
+        <snapshotRepository> 
+            <id>nexus-snapshots</id>
+            <name>Snapshot Releases</name>
+            <url>https://first.pl.s2-eu.capgemini.com/nexus3/repository/testMaven/</url>
+        </snapshotRepository>
+    </distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
