@@ -141,6 +141,18 @@
             <layout>default</layout>
         </repository>
     </repositories>
+	<distributionManagement>
+        <repository>
+            <id>nexus-releases</id>
+            <name>Internal Releases</name>
+            <url>https://first.pl.s2-eu.capgemini.com/nexus3/repository/testMaven/</url>
+        </repository>
+        <snapshotRepository> 
+            <id>nexus-snapshots</id>
+            <name>Snapshot Releases</name>
+            <url>https://first.pl.s2-eu.capgemini.com/nexus3/repository/testMaven/</url>
+        </snapshotRepository>
+    </distributionManagement> 
     <pluginRepositories>
         <pluginRepository>
             <id>mulesoft-release</id>
