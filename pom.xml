@@ -155,7 +155,7 @@
         </repository>
     </repositories>
 
-  </servers>
+
     <pluginRepositories>
         <pluginRepository>
             <id>mulesoft-release</id>
