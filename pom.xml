@@ -155,11 +155,7 @@
         </repository>
     </repositories>
 	<servers>
-    <server>
-        <id>repository.mulesoft.org</id>
-        <username>psapeugeotcitroen.nexus</username>
-        <password>4l206l3f4ll43l4ir3</password>
-    </server>
+    
   </servers>
     <pluginRepositories>
         <pluginRepository>
