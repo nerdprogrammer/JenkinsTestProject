@@ -154,8 +154,7 @@
             <layout>default</layout>
         </repository>
     </repositories>
-	<servers>
-    
+
   </servers>
     <pluginRepositories>
         <pluginRepository>
