@@ -146,7 +146,21 @@
             <url>https://repository.mulesoft.org/nexus/content/repositories/public/</url>
             <layout>default</layout>
         </repository>
+		
+	<repository>
+            <id>mulesoft-enterprise</id>
+            <name>MuleSoft enterprise edition Repository</name>
+            <url>https://repository.mulesoft.org/nexus-ee/content/repositories/releases-ee/</url>
+            <layout>default</layout>
+        </repository>
     </repositories>
+	<servers>
+    <server>
+        <id>repository.mulesoft.org</id>
+        <username>psapeugeotcitroen.nexus</username>
+        <password>4l206l3f4ll43l4ir3</password>
+    </server>
+  </servers>
     <pluginRepositories>
         <pluginRepository>
             <id>mulesoft-release</id>
