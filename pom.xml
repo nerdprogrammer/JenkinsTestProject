@@ -26,7 +26,7 @@
         <snapshotRepository> 
             <id>customer1st-snapshots</id>
             <name>Internal Snapshot artifacts</name>
-            <url>https://first.pl.s2-eu.capgemini.com/nexus3/repository/maven-snapshots/</url>
+            <url>https://first.pl.s2-eu.capgemini.com/nexus3/repository/customer1st-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 	<build>
