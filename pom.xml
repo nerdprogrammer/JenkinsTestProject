@@ -20,13 +20,13 @@
 <distributionManagement>
         <repository>
             <id>nexus-releases</id>
-            <name>Internal Releases</name>
-            <url>https://first.pl.s2-eu.capgemini.com/nexus3/repository/maven-central/</url>
+            <name>Internal Released artifacts</name>
+            <url>https://first.pl.s2-eu.capgemini.com/nexus3/repository/maven-releases/</url>
         </repository>
         <snapshotRepository> 
             <id>nexus-snapshots</id>
-            <name>Snapshot Releases</name>
-            <url>https://first.pl.s2-eu.capgemini.com/nexus3/repository/maven-central/</url>
+            <name>Internal Snapshot artifacts</name>
+            <url>https://first.pl.s2-eu.capgemini.com/nexus3/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 	<build>
