@@ -21,7 +21,7 @@
         <repository>
             <id>customer1st-releases</id>
             <name>Internal Released artifacts</name>
-            <url>http://nexus3:8081/nexus3/repository/maven-releases/</url>
+            <url>http://nexus3:8081/nexus3/repository/customer1st-releases/</url>
         </repository>
         <snapshotRepository> 
             <id>customer1st-snapshots</id>
