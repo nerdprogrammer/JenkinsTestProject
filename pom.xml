@@ -16,7 +16,19 @@
 		<mule.version>3.8.5</mule.version>
     	<mule.tools.version>1.2</mule.tools.version>
 	</properties>
-
+	<!-- demo customized config : Nexus Repositories -->
+<distributionManagement>
+        <repository>
+            <id>customer1st-releases</id>
+            <name>Internal Released artifacts</name>
+            <url>http://nexus3:8081/nexus3/repository/customer1st-releases/</url>
+        </repository>
+        <snapshotRepository> 
+            <id>customer1st-snapshots</id>
+            <name>Internal Snapshot artifacts</name>
+            <url>http://nexus3:8081/nexus3/repository/customer1st-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
@@ -140,7 +152,22 @@
             <url>http://repository.mulesoft.org/releases/</url>
             <layout>default</layout>
         </repository>
+	<repository>
+            <id>mulesoft-public</id>
+            <name>MuleSoft public Repository</name>
+            <url>https://repository.mulesoft.org/nexus/content/repositories/public/</url>
+            <layout>default</layout>
+        </repository>
+		
+	<repository>
+            <id>mulesoft-enterprise</id>
+            <name>MuleSoft enterprise edition Repository</name>
+            <url>https://repository.mulesoft.org/nexus-ee/content/repositories/releases-ee/</url>
+            <layout>default</layout>
+        </repository>
     </repositories>
+
+
     <pluginRepositories>
         <pluginRepository>
             <id>mulesoft-release</id>
